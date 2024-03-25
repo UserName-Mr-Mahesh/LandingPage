@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('./images/background.avif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    position:relative;
+    overflow:hidden;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none; 
+}
+.navbar .Logo{
+    width: 200px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    color: white;
+
+}
+.navbar .account{
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+}
+.nav ul{
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.background{
+    width: 100%;
+    padding: 10px ;
+    line-height: 40px;
+}
+.background>h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+.background>button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 9%;
+    background-color: rgb(237, 231, 222); 
+}
+.b1{
+    width: 30%;
+}
+.b1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+.b2{
+width: 35%;
+background-color: aliceblue;
+padding: 30px;
+line-height: 40px;
+border-radius: 10px;
+}
+.b2 ul{
+    list-style-type:armenian;
+    padding: 0 0 0 20px;  
+}
+.cooseLV{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 5%;
+    background-color: aquamarine; 
+}
+.car{
+    width: 28%;
+    margin: 20px;
+}
+.car ul li{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.details{
+    width: 28%;
+    margin: 20px;
+}
+.details ul li{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.details ul li img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.coverd{
+    width: 28%;
+}
+.div1{
+    color: green;
+}
+.div2{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(42, 214, 200);
+    color: rgb(69, 69, 158);
+    border-radius: 10px;
+}
+.repair{
+    width: 30%;
+}
+.repair ul{
+    list-style-type: disclosure-open;
+}
+.repair ul li{
+    padding: 10px;
+}
+.more{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 5%;
+}
+.more div{
+width: 80%;
+text-align: center;
+}
+.more div h1{
+    color: rgb(49, 154, 49);
+}
+.more div ul{
+    width: 100%;
+    padding: 2% 10%;
+}
+.more div ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    color: rgb(76, 76, 216);
+    box-shadow: 0px 0px 10px rgb(155, 143, 143);
+}
+.sub{
+    width: 26%;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    }
+    .sub button{
+        background-color: rgb(65, 65, 174);
+        color: aliceblue;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+    }
+    .sub h3{
+        color: rgb(77, 172, 77);
+    }
+    .sub img{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .rating{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        background-color: aliceblue;
+    }
+    .rating  ul li{
+        width: 80%;
+        display: flex;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .rating  ul li img{
+        position: relative;
+        float: right;
+        width: 90px;
+    }
+    .start{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(97, 185, 97);
+        padding: 5% 35%;
+    }
+    .start h1{
+        color: aliceblue;
+    }
+    .start button{
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .else{
+        width: 100%;
+        padding: 5%;
+        background-color: rgb(237, 231, 222);
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly; 
+    }
+    .else h1{
+        width: 40%;
+        color: rgb(77, 172, 77);
+    }
+    .else ul{
+        width: 45%;
+        list-style-type: disclosure-closed;
+    }
+    .else ul li{
+        padding: 10px;
+    }
+    .base{
+        width: 100%;
+        padding: 3%;
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .base p{
+        display: inline;
+        border-bottom: 1px solid rgb(198, 185, 185);
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+        line-height: 40px;
+        background-color: aliceblue;
+    }
+    .conclusion{
+        width: 100%;
+        padding: 3%;
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .conclusion ul{
+        width: 100%;
+        padding: 30px 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .conclusion p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
